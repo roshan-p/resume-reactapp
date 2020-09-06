@@ -27,9 +27,14 @@ background: linear-gradient(to right, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, F
     opacity: .8;
     width: 75%;
     margin:auto;
+    border-radius: 10px;
  
   }
 
+
+.socialBtn:hover{
+  color: #00d2ff;
+}
   .banner-text h1{
     font-size: 50px;
    font-weight: bold;

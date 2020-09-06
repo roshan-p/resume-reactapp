@@ -20,13 +20,13 @@ class Homepage extends Component {
                             <div className="social-links">
 
                                 <a href="https://www.linkedin.com/in/roshan-pandey-690a2813b/" rel="noopener noreferrer" target="_blank">
-                                    <i className="fa fa-linkedin-square" arai-hidden="true" />
+                                    <i className="fa fa-linkedin-square socialBtn" arai-hidden="true" />
                                 </a>
                                 <a href="https://github.com/roshan-p" rel="noopener noreferrer" target="_blank">
-                                    <i className="fa fa-github-square" arai-hidden="true" />
+                                    <i className="fa fa-github-square socialBtn" arai-hidden="true" />
                                 </a>
                                 <a href="https://wwww.facebook.com/roshan-hellverse" rel="noopener noreferrer" target="_blank">
-                                    <i className="fa fa-facebook-square" arai-hidden="true" />
+                                    <i className="fa fa-facebook-square socialBtn" arai-hidden="true" />
                                 </a>
 
                             </div>

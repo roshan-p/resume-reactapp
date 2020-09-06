@@ -19,7 +19,7 @@ function App() {
                 <a href="/contact">Contact</a> */}
             </Navigation>
         </Header>
-        <Drawer title="Ro's World!">
+        <Drawer title={<Link style={{textDecoration: 'none', color: 'grey'}} to="/">Ro's World</Link>}>
             <Navigation>
             <Link style={{textDecoration: 'none', color: 'grey'}} to="/resume">Resume</Link>
             <Link style={{textDecoration: 'none', color: 'grey'}} to="/aboutme">About me</Link>
