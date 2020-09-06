@@ -24,7 +24,7 @@ class Projects extends Component {
                             React web app for my resume
                         </CardText>
                         <CardActions border>
-                            <Button colored onClick><a href="https://github.com/roshan-p/my-resume" rel="noopener noreferrer" target="_blank">View on github</a></Button>
+                            <Button colored onClick><a href="https://github.com/roshan-p/resume-reactapp" rel="noopener noreferrer" target="_blank">View on github</a></Button>
                             {/* <Button colored>CodePen</Button>
               <Button colored>Live Demo</Button> */}
                         </CardActions>
