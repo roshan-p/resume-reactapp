@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-const myAvatar = process.env.PUBLIC_URL + '/my-avatar.png';
+const myAvatar = process.env.PUBLIC_URL + '/my-avatar-2.png';
 
 class Homepage extends Component {
     render() {

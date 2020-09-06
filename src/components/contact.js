@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
-const myAvatar = process.env.PUBLIC_URL + '/my-avatar.png';
+const myAvatar = process.env.PUBLIC_URL + '/my-avatar-2.png';
 
 class Contact extends Component {
   render() {

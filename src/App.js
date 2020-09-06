@@ -21,11 +21,10 @@ function App() {
         </Header>
         <Drawer title="Ro's World!">
             <Navigation>
-            <a href="/resume">Resume</a>
-            <Link style={{textDecoration: 'none', color: 'white'}} to="/resume">Resume</Link>
-            <Link style={{textDecoration: 'none', color: 'white'}} to="/aboutme">About me</Link>
-            <Link style={{textDecoration: 'none', color: 'white'}} to="/projects">Projects</Link>
-            <Link style={{textDecoration: 'none', color: 'white'}} to="/contact">Contact</Link>
+            <Link style={{textDecoration: 'none', color: 'grey'}} to="/resume">Resume</Link>
+            <Link style={{textDecoration: 'none', color: 'grey'}} to="/aboutme">About me</Link>
+            <Link style={{textDecoration: 'none', color: 'grey'}} to="/projects">Projects</Link>
+            <Link style={{textDecoration: 'none', color: 'grey'}} to="/contact">Contact</Link>
             </Navigation>
         </Drawer>
         <Content>
