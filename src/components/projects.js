@@ -3,7 +3,7 @@ import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, 
 const blockChainImg = 'url(https://tokeny.pl/wp-content/uploads/2018/10/blockchain_featured.jpeg) center / cover';
 const reactImg = 'url(https://reactjs.org/logo-og.png) center / cover';
 const cplus = 'url(https://www.educative.io/api/page/5393602882568192/image/download/6038586442907648) center / cover';
-const nodeImg = 'url(https://bestinternet.co.th/img/blog/nodejs%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3.jpeg) center / cover'; 
+const nodeImg = 'url(https://bestinternet.co.th/img/blog/nodejs%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3.jpeg) center / cover';
 
 class Projects extends Component {
     constructor(props) {
@@ -43,6 +43,18 @@ class Projects extends Component {
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
                         <CardTitle style={{ color: '#fff', height: '176px', background: reactImg }} >React-Native Project #1</CardTitle>
                         <CardText>
+                            "Livvz" Property market plaform owned by Raimon Land Public Company Limited
+                  </CardText>
+                        <CardActions border >
+                            <Button colored onClick><a href="https://apps.apple.com/th/app/livvz/id1465686975" rel="noopener noreferrer" target="_blank">App Store</a></Button>
+                            <Button colored onClick><a href="https://play.google.com/store/apps/details?id=com.rml.livvz&hl=en_US" rel="noopener noreferrer" target="_blank">Google Play</a></Button>
+
+                        </CardActions>
+                    </Card>
+
+                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: reactImg }} >React-Native Project #2</CardTitle>
+                        <CardText>
                             React-native with redux demo
                   </CardText>
                         <CardActions border>
@@ -52,7 +64,7 @@ class Projects extends Component {
                     </Card>
 
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '176px', background: reactImg }} >React-Native Project #2</CardTitle>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: reactImg }} >React-Native Project #3</CardTitle>
                         <CardText>
                             React-Native-GoogleMap-Demo
                   </CardText>
@@ -66,43 +78,43 @@ class Projects extends Component {
         } else if (this.state.activeTab === 2) {
             return (
                 <div className="projects-grid">
-                <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                    <CardTitle style={{ color: '#fff', height: '176px', background: nodeImg }} >NodeJS #1</CardTitle>
-                    <CardText>
-                        Blockchain Demo with 5 network nodes
+                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: nodeImg }} >NodeJS #1</CardTitle>
+                        <CardText>
+                            Blockchain Demo with 5 network nodes
               </CardText>
-                    <CardActions border>
-                        <Button colored onClick><a href="https://github.com/roshan-p/Blockchain-with-network-nodes" rel="noopener noreferrer" target="_blank">View on github</a></Button>
+                        <CardActions border>
+                            <Button colored onClick><a href="https://github.com/roshan-p/Blockchain-with-network-nodes" rel="noopener noreferrer" target="_blank">View on github</a></Button>
 
-                    </CardActions>
-                </Card>
+                        </CardActions>
+                    </Card>
 
-                <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                    <CardTitle style={{ color: '#fff', height: '176px', background: nodeImg }} >NodeJS #2</CardTitle>
-                    <CardText>
-                    Online shopping cart by using Node.js / Express / MongoDB
+                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: nodeImg }} >NodeJS #2</CardTitle>
+                        <CardText>
+                            Online shopping cart by using Node.js / Express / MongoDB
               </CardText>
-                    <CardActions border>
-                        <Button colored onClick><a href="https://github.com/roshan-p/Online-Shopping-Cart" rel="noopener noreferrer" target="_blank">View on github</a></Button>
+                        <CardActions border>
+                            <Button colored onClick><a href="https://github.com/roshan-p/Online-Shopping-Cart" rel="noopener noreferrer" target="_blank">View on github</a></Button>
 
-                    </CardActions>
-                </Card>
+                        </CardActions>
+                    </Card>
                 </div>
 
             )
         } else if (this.state.activeTab === 3) {
             return (
                 <div className="projects-grid">
-                <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                    <CardTitle style={{ color: '#fff', height: '176px', background: cplus }} >C++ Project #1</CardTitle>
-                    <CardText>
-                        License plates detection with OpenCV
+                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: cplus }} >C++ Project #1</CardTitle>
+                        <CardText>
+                            License plates detection with OpenCV
               </CardText>
-                    <CardActions border>
-                        <Button colored onClick><a href="https://github.com/roshan-p/LPDS" rel="noopener noreferrer" target="_blank">View on github</a></Button>
+                        <CardActions border>
+                            <Button colored onClick><a href="https://github.com/roshan-p/LPDS" rel="noopener noreferrer" target="_blank">View on github</a></Button>
 
-                    </CardActions>
-                </Card>
+                        </CardActions>
+                    </Card>
                 </div>
             )
         }

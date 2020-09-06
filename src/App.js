@@ -9,18 +9,23 @@ function App() {
     <Layout >
     <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">Ro's World</Link>} scroll>
             <Navigation>
-                <a href="/resume">Resume</a>
+            <Link style={{textDecoration: 'none', color: 'white'}} to="/resume">Resume</Link>
+            <Link style={{textDecoration: 'none', color: 'white'}} to="/aboutme">About me</Link>
+            <Link style={{textDecoration: 'none', color: 'white'}} to="/projects">Projects</Link>
+            <Link style={{textDecoration: 'none', color: 'white'}} to="/contact">Contact</Link>
+                {/* <a href="/resume">Resume</a>
                 <a href="/aboutme">About Me</a>
                 <a href="/projects">Projects</a>
-                <a href="/contact">Contact</a>
+                <a href="/contact">Contact</a> */}
             </Navigation>
         </Header>
         <Drawer title="Ro's World!">
             <Navigation>
             <a href="/resume">Resume</a>
-                <a href="/aboutme">About Me</a>
-                <a href="/projects">Projects</a>
-                <a href="/contact">Contact</a>
+            <Link style={{textDecoration: 'none', color: 'white'}} to="/resume">Resume</Link>
+            <Link style={{textDecoration: 'none', color: 'white'}} to="/aboutme">About me</Link>
+            <Link style={{textDecoration: 'none', color: 'white'}} to="/projects">Projects</Link>
+            <Link style={{textDecoration: 'none', color: 'white'}} to="/contact">Contact</Link>
             </Navigation>
         </Drawer>
         <Content>
