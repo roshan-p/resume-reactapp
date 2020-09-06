@@ -20,11 +20,12 @@ class Resume extends Component {
                         </div>
 
                         <h2 style={{ paddingTop: '2em' }}>Roshan Pandey</h2>
+                        <h5 style={{ color: 'grey' }}>** Thai Nationality **</h5>
                         <h4 style={{ color: 'grey' }}>Full Stack Developer (React-Ntive)</h4>
-                        <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
+                        <hr style={{ borderTop: '3px solid #00d2ff', width: '50%' }} />
                         <p>To take a challenging and managerial role in the field of computer programming and implement the expertise and experience gained in this field to develop complex project with efficiency and quality.
 </p>
-                        <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
+                        <hr style={{ borderTop: '3px solid #00d2ff', width: '50%' }} />
                         <h5>Address</h5>
                         <p>90/416 Soi Watluang Wognsawang Road Bangsue District Bangkok 10800 Thailand</p>
                         <h5>Phone</h5>
@@ -33,7 +34,7 @@ class Resume extends Component {
                         <p>roshan007191@gmail.com</p>
                         <h5>Web</h5>
                         <p>https://roshan-p.github.io/my-resume</p>
-                        <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
+                        <hr style={{ borderTop: '3px solid #00d2ff', width: '50%' }} />
                     </Cell>
                     <Cell className="resume-right-col" col={8}>
                         <h2>Education</h2>
