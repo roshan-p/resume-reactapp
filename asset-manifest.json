@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/resume-reactapp/static/css/main.bd66be21.chunk.css",
+    "main.js": "/resume-reactapp/static/js/main.e0d5b585.chunk.js",
+    "main.js.map": "/resume-reactapp/static/js/main.e0d5b585.chunk.js.map",
+    "runtime-main.js": "/resume-reactapp/static/js/runtime-main.22b87991.js",
+    "runtime-main.js.map": "/resume-reactapp/static/js/runtime-main.22b87991.js.map",
+    "static/css/2.cd1c2086.chunk.css": "/resume-reactapp/static/css/2.cd1c2086.chunk.css",
+    "static/js/2.39eab256.chunk.js": "/resume-reactapp/static/js/2.39eab256.chunk.js",
+    "static/js/2.39eab256.chunk.js.map": "/resume-reactapp/static/js/2.39eab256.chunk.js.map",
+    "index.html": "/resume-reactapp/index.html",
+    "precache-manifest.feb2b834ddc8f8123a4bc508ac004202.js": "/resume-reactapp/precache-manifest.feb2b834ddc8f8123a4bc508ac004202.js",
+    "service-worker.js": "/resume-reactapp/service-worker.js",
+    "static/css/2.cd1c2086.chunk.css.map": "/resume-reactapp/static/css/2.cd1c2086.chunk.css.map",
+    "static/css/main.bd66be21.chunk.css.map": "/resume-reactapp/static/css/main.bd66be21.chunk.css.map",
+    "static/js/2.39eab256.chunk.js.LICENSE.txt": "/resume-reactapp/static/js/2.39eab256.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.22b87991.js",
+    "static/css/2.cd1c2086.chunk.css",
+    "static/js/2.39eab256.chunk.js",
+    "static/css/main.bd66be21.chunk.css",
+    "static/js/main.e0d5b585.chunk.js"
+  ]
+}
