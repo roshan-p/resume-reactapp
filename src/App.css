@@ -126,5 +126,26 @@ background: linear-gradient(to right, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, F
     }
     
   
-  
+  .btn-main{
+    background: #00d2ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: 0px solid #00d2ff;
+    border-radius: 5px;
+    border: 'red';
+    width: 80px;
+    height: 40px;
+    color: white;
+  }
+  .btn-main:hover{
+    background: #3a7bd5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00d2ff, #3a7bd5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00d2ff, #3a7bd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: 0px solid #3a7bd5;
+    border-radius: 5px;
+    border: 'red';
+    width: 80px;
+    height: 40px;
+    color: white;
+  }
     /* contact page css */

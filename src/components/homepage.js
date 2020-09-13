@@ -31,8 +31,6 @@ class Homepage extends Component {
 
                             </div>
                         </div>
-
-
                     </Cell>
                 </Grid>
             </div>

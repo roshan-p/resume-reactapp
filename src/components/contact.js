@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
+import EmailForm from './forms/emailForm'
 const myAvatar = process.env.PUBLIC_URL + '/my-avatar-2.png';
 
 class Contact extends Component {
@@ -20,7 +21,7 @@ class Contact extends Component {
           <Cell col={6}>
             <h2>Contact Me</h2>
             <hr/>
-
+         
             <div className="contact-list">
               <List>
                 <ListItem>
@@ -35,8 +36,9 @@ class Contact extends Component {
                     <i className="fa fa-envelope" aria-hidden="true"/>
                     roshan007191@gmail.com
                   </ListItemContent>
-                </ListItem>
+                </ListItem>  
               </List>
+              <EmailForm/>
             </div>
           </Cell>
         </Grid>

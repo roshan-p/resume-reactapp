@@ -33,7 +33,7 @@ class Resume extends Component {
                         <h5>Email</h5>
                         <p>roshan007191@gmail.com</p>
                         <h5>Web</h5>
-                        <p>https://roshan-p.github.io/my-resume</p>
+                        <a href="https://roshan-p.github.io/resume-reactapp/#/" target="_blank">roshan-p.github.io</a>
                         <hr style={{ borderTop: '3px solid #00d2ff', width: '50%' }} />
                     </Cell>
                     <Cell className="resume-right-col" col={8}>
