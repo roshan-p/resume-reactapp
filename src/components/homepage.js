@@ -5,7 +5,7 @@ const myAvatar = process.env.PUBLIC_URL + '/my-avatar-2.png';
 class Homepage extends Component {
     render() {
         return (
-            <div style={{ width: '100%', margin: 'auto' }}>
+            <div style={{ width: '100%', margin: 'auto',overflow: 'scroll' }}>
                 <Grid className="home-grid">
                     <Cell col={12}>
                         <img
@@ -16,7 +16,7 @@ class Homepage extends Component {
                         <div className="banner-text">
                             <h1>Full Stack Developer</h1>
                             <hr />
-                            <p>React-Native | ReactJS | Redux | NodeJS | JavaScript | HTML/CSS | Firebase | MySQL</p>
+                            <p>React-Native | ReactJS | Redux | NodeJS | JavaScript | HTML/CSS | Firebase | MySQL | MongoDB | REST/Graphql API</p>
                             <div className="social-links">
 
                                 <a href="https://www.linkedin.com/in/roshan-pandey-690a2813b/" rel="noopener noreferrer" target="_blank">

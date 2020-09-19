@@ -32,6 +32,27 @@ class Projects extends Component {
                             <IconButton name="share" />
                         </CardMenu> */}
                     </Card>
+                      <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: reactImg }} >React Project #2</CardTitle>
+                        <CardText>
+                            React front end for chat application
+                        </CardText>
+                        <CardActions border>
+                            <Button colored onClick><a href="https://github.com/roshan-p/exam-frontend" rel="noopener noreferrer" target="_blank">View on github</a></Button>
+                        </CardActions>
+                      
+                    </Card>
+
+                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: reactImg }} >React Project #3</CardTitle>
+                        <CardText>
+                           Show real-time data with redux
+                        </CardText>
+                        <CardActions border>
+                            <Button colored onClick><a href="https://github.com/roshan-p/techcurve-test/tree/master/client" rel="noopener noreferrer" target="_blank">View on github</a></Button>
+                        </CardActions>
+                      
+                    </Card>
                 </div>
 
 
@@ -96,6 +117,28 @@ class Projects extends Component {
               </CardText>
                         <CardActions border>
                             <Button colored onClick><a href="https://github.com/roshan-p/Online-Shopping-Cart" rel="noopener noreferrer" target="_blank">View on github</a></Button>
+
+                        </CardActions>
+                    </Card>
+
+                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: nodeImg }} >NodeJS #3</CardTitle>
+                        <CardText>
+                            Back-end for chat application by using Node.js / Express / MongoDB (Graphql API)
+              </CardText>
+                        <CardActions border>
+                            <Button colored onClick><a href="https://github.com/roshan-p/exam-backend" rel="noopener noreferrer" target="_blank">View on github</a></Button>
+
+                        </CardActions>
+                    </Card>
+
+                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: nodeImg }} >NodeJS #4</CardTitle>
+                        <CardText>
+                            Back-end for chart application by using Node.js / Express / MongoDB (REST API)
+              </CardText>
+                        <CardActions border>
+                            <Button colored onClick><a href="https://github.com/roshan-p/techcurve-test" rel="noopener noreferrer" target="_blank">View on github</a></Button>
 
                         </CardActions>
                     </Card>
