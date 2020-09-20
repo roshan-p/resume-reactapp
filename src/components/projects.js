@@ -53,6 +53,16 @@ class Projects extends Component {
                         </CardActions>
                       
                     </Card>
+                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: reactImg }} >React Project #4</CardTitle>
+                        <CardText>
+                           React hooks demo
+                        </CardText>
+                        <CardActions border>
+                            <Button colored onClick><a href="https://github.com/roshan-p/react-hooks-demo" rel="noopener noreferrer" target="_blank">View on github</a></Button>
+                        </CardActions>
+                      
+                    </Card>
                 </div>
 
 
