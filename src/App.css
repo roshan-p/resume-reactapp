@@ -79,8 +79,18 @@ background: linear-gradient(to right, #3a7bd5, #00d2ff); */
      margin-right: 50px;
       
     }
+    .projects-tab{
+      margin-top: 50px;
+    }
     .projects-grid {
-      display: flex;
+      display: grid;
+      grid-template-columns: auto auto auto;
+      padding: 10px;
+      justify-content: space-around;
+    }
+    .projects-card{
+      min-width: 350px;
+      margin: 10px;
     }
     
     /* Resume Page css */
@@ -173,6 +183,7 @@ background: linear-gradient(to right, #3a7bd5, #00d2ff); */
 .nav-btn{
   text-decoration: none;
   color:black !important;
+  font-size: 1.2rem;
   
 }
 .nav-btn:hover{
@@ -181,4 +192,7 @@ background: linear-gradient(to right, #3a7bd5, #00d2ff); */
 }
 .EmailForm{
   margin-top: 50px;
+}
+.skill-label{
+  width: 10%;
 }
