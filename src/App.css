@@ -195,4 +195,5 @@ background: linear-gradient(to right, #3a7bd5, #00d2ff); */
 }
 .skill-label{
   width: 10%;
+  margin-right: 40px;
 }
