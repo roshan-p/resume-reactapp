@@ -38,6 +38,7 @@ class Contact extends Component {
                   </ListItemContent>
                 </ListItem>  
               </List>
+              <hr/>
               <EmailForm/>
             </div>
           </Cell>
