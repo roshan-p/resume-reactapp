@@ -3,13 +3,16 @@ import ReactDOM from 'react-dom';
 import 'react-mdl/extra/material.css';
 import 'react-mdl/extra/material.js';
 import './index.css';
+import './css/default.css';
+import './css/layout.css';
+import './css/media-queries.css';
+import './css/magnific-popup.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { HashRouter } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
- 
     <HashRouter>
       <App />
     </HashRouter>
