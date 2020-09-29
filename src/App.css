@@ -104,7 +104,6 @@ background: linear-gradient(to right, #3a7bd5, #00d2ff); */
     
     .contact-body {
       margin: auto;
-      position: fixed;
       width: 100%;
       height: 100%;
       justify-content: center;
