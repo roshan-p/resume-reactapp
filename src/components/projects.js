@@ -17,10 +17,8 @@ class Projects extends Component {
 
         if (this.state.activeTab === 0) {
             return (
-
                 <Row>
-
-                    <Col xs="12"  md="6" lg="4">
+                    <Col xs="12" md="6" lg="4">
                         <Card shadow={5} className="projects-card" >
                             <CardTitle style={{ color: '#fff', height: '176px', background: reactImg }} >React Project #1</CardTitle>
                             <CardText>
@@ -31,7 +29,7 @@ class Projects extends Component {
                             </CardActions>
                         </Card>
                     </Col>
-                    <Col xs="12"  md="6" lg="4">
+                    <Col xs="12" md="6" lg="4">
                         <Card shadow={5} className="projects-card">
                             <CardTitle style={{ color: '#fff', height: '176px', background: reactImg }} >React Project #2</CardTitle>
                             <CardText>
@@ -44,7 +42,7 @@ class Projects extends Component {
                         </Card>
                     </Col>
 
-                    <Col xs="12"  md="6" lg="4">
+                    <Col xs="12" md="6" lg="4">
                         <Card shadow={5} className="projects-card">
                             <CardTitle style={{ color: '#fff', height: '176px', background: reactImg }} >React Project #3</CardTitle>
                             <CardText>
@@ -56,7 +54,7 @@ class Projects extends Component {
 
                         </Card>
                     </Col>
-                    <Col xs="12"  md="6" lg="4">
+                    <Col xs="12" md="6" lg="4">
                         <Card shadow={5} className="projects-card">
                             <CardTitle style={{ color: '#fff', height: '176px', background: reactImg }} >React Project #4</CardTitle>
                             <CardText>
@@ -69,14 +67,12 @@ class Projects extends Component {
                         </Card>
                     </Col>
                 </Row>
-
-
             )
         }
         else if (this.state.activeTab === 1) {
             return (
                 <Row>
-                    <Col xs="12"  md="6" lg="4">
+                    <Col xs="12" md="6" lg="4">
                         <Card shadow={5} className="projects-card">
                             <CardTitle style={{ color: '#fff', height: '176px', background: reactImg }} >React-Native Project #1</CardTitle>
                             <CardText>
@@ -90,7 +86,7 @@ class Projects extends Component {
                         </Card>
                     </Col>
 
-                    <Col xs="12"  md="6" lg="4">
+                    <Col xs="12" md="6" lg="4">
                         <Card shadow={5} className="projects-card">
                             <CardTitle style={{ color: '#fff', height: '176px', background: reactImg }} >React-Native Project #2</CardTitle>
                             <CardText>
@@ -103,7 +99,7 @@ class Projects extends Component {
                         </Card>
                     </Col>
 
-                    <Col xs="12"  md="6" lg="4">
+                    <Col xs="12" md="6" lg="4">
                         <Card shadow={5} className="projects-card">
                             <CardTitle style={{ color: '#fff', height: '176px', background: reactImg }} >React-Native Project #3</CardTitle>
                             <CardText>
@@ -120,7 +116,7 @@ class Projects extends Component {
         } else if (this.state.activeTab === 2) {
             return (
                 <Row>
-                    <Col xs="12"  md="6" lg="4">
+                    <Col xs="12" md="6" lg="4">
                         <Card shadow={5} className="projects-card">
                             <CardTitle style={{ color: '#fff', height: '176px', background: nodeImg }} >NodeJS #1</CardTitle>
                             <CardText>
@@ -133,7 +129,7 @@ class Projects extends Component {
                         </Card>
                     </Col>
 
-                    <Col xs="12"  md="6" lg="4">
+                    <Col xs="12" md="6" lg="4">
                         <Card shadow={5} className="projects-card">
                             <CardTitle style={{ color: '#fff', height: '176px', background: nodeImg }} >NodeJS #2</CardTitle>
                             <CardText>
@@ -146,7 +142,7 @@ class Projects extends Component {
                         </Card>
                     </Col>
 
-                    <Col xs="12"  md="6" lg="4">
+                    <Col xs="12" md="6" lg="4">
                         <Card shadow={5} className="projects-card">
                             <CardTitle style={{ color: '#fff', height: '176px', background: nodeImg }} >NodeJS #3</CardTitle>
                             <CardText>
@@ -159,7 +155,7 @@ class Projects extends Component {
                         </Card>
                     </Col>
 
-                    <Col xs="12"  md="6" lg="4">
+                    <Col xs="12" md="6" lg="4">
                         <Card shadow={5} className="projects-card">
                             <CardTitle style={{ color: '#fff', height: '176px', background: nodeImg }} >NodeJS #4</CardTitle>
                             <CardText>
@@ -177,7 +173,7 @@ class Projects extends Component {
         } else if (this.state.activeTab === 3) {
             return (
                 <Row>
-                    <Col xs="12"  md="6" lg="4">
+                    <Col xs="12" md="6" lg="4">
                         <Card shadow={5} className="projects-card">
                             <CardTitle style={{ color: '#fff', height: '176px', background: cplus }} >C++ Project #1</CardTitle>
                             <CardText>
@@ -192,11 +188,7 @@ class Projects extends Component {
                 </Row>
             )
         }
-
-
-
     }
-
 
 
     render() {
@@ -205,15 +197,11 @@ class Projects extends Component {
                 <Tabs className="projects-tab" activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
                     <Tab>ReactJS</Tab>
                     <Tab>React-Naitve</Tab>
-                    <Tab>ฺNodeJS</Tab>
+                    <Tab>NodeJS</Tab>
                     <Tab>C++</Tab>
                 </Tabs>
-
-
                 <Container>
-
                     <div className="content">{this.toggleCategories()}</div>
-
                 </Container>
 
 
