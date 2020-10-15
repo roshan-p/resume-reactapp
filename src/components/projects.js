@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import { Tabs, Tab, Card, CardTitle, CardText, CardActions, Button, } from 'react-mdl';
 import { Container, Row, Col } from 'react-bootstrap';
 
-const blockChainImg = 'url(https://tokeny.pl/wp-content/uploads/2018/10/blockchain_featured.jpeg) center / cover';
+
 const reactImg = 'url(https://reactjs.org/logo-og.png) center / cover';
 const cplus = 'url(https://www.educative.io/api/page/5393602882568192/image/download/6038586442907648) center / cover';
 const nodeImg = 'url(https://bestinternet.co.th/img/blog/nodejs%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3.jpeg) center / cover';

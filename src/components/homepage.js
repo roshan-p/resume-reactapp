@@ -1,11 +1,9 @@
-import React, { Component, useState, useEffect } from 'react';
+import React from 'react';
 import { Grid, Cell } from 'react-mdl';
 import { useTransition, animated } from 'react-spring'
 const myAvatar = process.env.PUBLIC_URL + '/my-avatar-2.png';
 
 function Homepage() {
-    const [show, setShow] = useState(false);
-    const [showAvatar, setShowAvatar] = useState(false);
     const transitions = useTransition(true, null, {
         from: { opacity: 0 },
         enter: item => async (next, cancel) => {
@@ -22,10 +20,6 @@ function Homepage() {
         },
         leave: { opacity: 0 },
     })
-    useEffect(() => {
-        setShowAvatar();
-        setShow();
-    }, []);
 
     return (
 

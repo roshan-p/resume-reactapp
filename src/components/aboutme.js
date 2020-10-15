@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell,List,ListItem,ListItemContent } from 'react-mdl';
-import Education from './education';
-import Experience from './experience';
-import Skills from './skills';
+
 const myAvatar = process.env.PUBLIC_URL + '/my-avatar-2.png';
 
 class Aboutme extends Component {
