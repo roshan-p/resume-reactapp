@@ -18,7 +18,7 @@ class Resume extends Component {
             <h2 style={{ paddingTop: "2em" }}>Roshan Pandey</h2>
             <h5 style={{ color: "grey" }}>** Thai Nationality **</h5>
             <h4 style={{ color: "grey" }}>
-              Full Stack Developer (React-Ntive)
+              Lead Fron End Developer
             </h4>
             <hr style={{ borderTop: "3px solid #00d2ff", width: "50%" }} />
             <p>
