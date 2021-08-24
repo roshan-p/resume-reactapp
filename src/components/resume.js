@@ -73,13 +73,13 @@ class Resume extends Component {
               startYear={2018}
               endYear={2020}
               jobName="Raimon Land Public Company Limited"
-              jobDescription="My key responsibilities was to be a part of team developing mobile application and web application"
+              jobDescription="My key responsibilities was to be a part of team developing mobile application and web application."
             />
             <Experience
               startYear={2020}
               endYear={"Present"}
               jobName="Tata Consultancy Services (Thailand) Limited"
-              jobDescription="My key responsibilities is to be a part of team developing web application for mobile and lead the front end team"
+              jobDescription="My key responsibilities is to be a part of team developing web application for mobile and lead the front end team."
             />
             <hr style={{ borderTop: "3px solid #e22947" }} />
             <h2>Skills</h2>
