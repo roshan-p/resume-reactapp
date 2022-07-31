@@ -6,7 +6,9 @@ import { Container, Row, Col } from 'react-bootstrap';
 const reactImg = 'url(https://reactjs.org/logo-og.png) center / cover';
 const cplus = 'url(https://www.educative.io/api/page/5393602882568192/image/download/6038586442907648) center / cover';
 const nodeImg = 'url(https://bestinternet.co.th/img/blog/nodejs%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3.jpeg) center / cover';
-
+const ttbtouch = 'url(https://www.ttbbank.com/assets/half-assets/howto/autoloan-account-details/autoloan-account-details-01.jpg) center / cover'
+const officemate = 'url(https://cdndtw.buzzebees.com/agencies/32879?time=20201031013000) center / cover';
+const rinacente = 'url(https://wwd.com/wp-content/uploads/2020/06/00-homepage.jpg) center / cover';
 class Projects extends Component {
     constructor(props) {
         super(props);
@@ -18,6 +20,7 @@ class Projects extends Component {
         if (this.state.activeTab === 0) {
             return (
                 <Row>
+                    
                     <Col xs="12" md="6" lg="4">
                         <Card shadow={5} className="projects-card" >
                             <CardTitle style={{ color: '#fff', height: '176px', background: reactImg }} >React Project #1</CardTitle>
@@ -62,6 +65,43 @@ class Projects extends Component {
                         </CardText>
                             <CardActions border>
                                 <Button colored onClick><a href="https://github.com/roshan-p/react-hooks-demo" rel="noopener noreferrer" target="_blank">View on github</a></Button>
+                            </CardActions>
+
+                        </Card>
+                    </Col>
+                    <Col xs="12" md="6" lg="4">
+                        <Card shadow={5} className="projects-card" >
+                            <CardTitle style={{ color: '#fff', height: '176px', background: ttbtouch }} ><h2 style={{marginTop:'120px', backgroundColor:'rgba(0, 0, 0, 0.5)' }}>Auto Loan</h2></CardTitle>
+                            <CardText>
+                                ttb touch autoloan module: Create Auto Loan Module for ttb touch app (created as a webview of mobile app by using Next.js)
+                        </CardText>
+                        <CardActions border >
+                                <Button colored onClick><a href="https://apps.apple.com/th/app/ttb-touch/id884079963" rel="noopener noreferrer" target="_blank">App Store</a></Button>
+                                <Button colored onClick><a href="https://play.google.com/store/apps/details?id=com.TMBTOUCH.PRODUCTION&hl=th&gl=US" rel="noopener noreferrer" target="_blank">Google Play</a></Button>
+
+                            </CardActions>
+                        </Card>
+                    </Col>
+                    <Col xs="12" md="6" lg="4">
+                        <Card shadow={5} className="projects-card">
+                            <CardTitle style={{ color: '#fff', height: '176px', background: officemate }}><h2 style={{marginTop:'120px', backgroundColor:'rgba(0, 0, 0, 0.5)' }}>Officemate</h2></CardTitle>
+                            <CardText>
+                                Officemate is an online shopping website of Thailand.
+                        </CardText>
+                            <CardActions border>
+                                <Button colored onClick><a href="https://www.officemate.co.th/en" rel="noopener noreferrer" target="_blank">View Website</a></Button>
+                            </CardActions>
+
+                        </Card>
+                    </Col>
+                    <Col xs="12" md="6" lg="4">
+                        <Card shadow={5} className="projects-card">
+                            <CardTitle style={{ color: '#fff', height: '176px', background: rinacente }}><h2 style={{marginTop:'120px', backgroundColor:'rgba(0, 0, 0, 0.5)' }}>Rinacente</h2></CardTitle>
+                            <CardText>
+                                Rinacente is an online clothes and accessories shopping website of Italy.
+                        </CardText>
+                            <CardActions border>
+                                <Button colored onClick><a href="https://www.rinascente.it/" rel="noopener noreferrer" target="_blank">View Website</a></Button>
                             </CardActions>
 
                         </Card>

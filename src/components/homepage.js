@@ -40,7 +40,7 @@ function Homepage() {
                             <div className="banner-text">
                                 <h1>Full Stack Developer</h1>
                                 <hr />
-                                <p>React-Native | ReactJS | Redux | NodeJS | JavaScript | HTML/CSS | Firebase | MySQL | MongoDB | REST | Graphql</p>
+                                <p>React-Native | React | Redux | Node.js | JavaScript | HTML/CSS | Firebase | MySQL | MongoDB | REST | Graphql</p>
                                 <div className="social-links">
 
                                     <a href="https://www.linkedin.com/in/roshan-pandey-690a2813b/" rel="noopener noreferrer" target="_blank">

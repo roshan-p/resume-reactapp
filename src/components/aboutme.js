@@ -18,7 +18,7 @@ class Aboutme extends Component {
                         </div>
 
                         <h2 style={{ paddingTop: '2em' }}>Roshan Pandey</h2>
-                        <h4 style={{ color: 'grey' }}>Full Stack Developer (React-Ntive)</h4>
+                        <h4 style={{ color: 'grey' }}>Full Stack Developer (React+Node.js) </h4>
 
                         <hr style={{ borderTop: '3px solid #833fb2', width: '100%' }} />
                         <h5>My Interests</h5>
