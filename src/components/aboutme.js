@@ -24,16 +24,16 @@ class Aboutme extends Component {
                         <h5>My Interests</h5>
                         <List>
                             <ListItem>
-                                <ListItemContent><i  style={{ fontSize: '2em' }} className="fa fa-book " aria-hidden="true"/> Manga</ListItemContent>
+                                <ListItemContent><i  style={{  fontSize: "40px", paddingRight: "15px" }} className="fa fa-book " aria-hidden="true"/> <div className='interest-text'>Manga</div></ListItemContent>
                             </ListItem>
                             <ListItem>
-                                <ListItemContent><i  style={{ fontSize: '2em' }} className="fa fa-tv " aria-hidden="true"/> Anime</ListItemContent>
+                                <ListItemContent><i  style={{  fontSize: "40px", paddingRight: "15px" }} className="fa fa-tv " aria-hidden="true"/> <div className='interest-text'>Anime</div></ListItemContent>
                             </ListItem>
                             <ListItem>
-                                <ListItemContent><i  style={{ fontSize: '2em' }} className="fa fa-code " aria-hidden="true"/> Programming</ListItemContent>
+                                <ListItemContent><i  style={{  fontSize: "40px", paddingRight: "15px" }} className="fa fa-code " aria-hidden="true"/><div className='interest-text'>Programming</div></ListItemContent>
                             </ListItem>
                             <ListItem>
-                                <ListItemContent><i  style={{ fontSize: '2em' }} className="fa fa-heart " aria-hidden="true"/> Gym</ListItemContent>
+                                <ListItemContent><i  style={{  fontSize: "40px", paddingRight: "15px" }} className="fa fa-heart " aria-hidden="true"/><div className='interest-text'>Gym</div></ListItemContent>
                             </ListItem>
                         </List>
 
