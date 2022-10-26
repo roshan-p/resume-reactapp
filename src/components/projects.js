@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 
 const reactImg = 'url(https://reactjs.org/logo-og.png) center / cover';
-const cplus = 'url(https://www.educative.io/api/page/5393602882568192/image/download/6038586442907648) center / cover';
+const cplus = 'url(https://www.ambiciative.com/assets/img/cimg.jpg) center / cover';
 const nodeImg = 'url(https://bestinternet.co.th/img/blog/nodejs%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3.jpeg) center / cover';
 const ttbtouch = 'url(https://www.ttbbank.com/assets/half-assets/howto/autoloan-account-details/autoloan-account-details-01.jpg) center / cover'
 const officemate = 'url(https://cdndtw.buzzebees.com/agencies/32879?time=20201031013000) center / cover';
