@@ -206,3 +206,53 @@ background: linear-gradient(to right, #3a7bd5, #00d2ff); */
 .interest-text{
   margin-top: 15px;
 }
+.contact-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensures full viewport height */
+}
+
+.contact-grid {
+  width: 80%;
+}
+
+.contact-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.contact-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-family: "Anton";
+}
+
+.contact-item i {
+  font-size: 40px;
+  padding-right: 10px;
+}
+.contact-item hr {
+  margin: 0 px !important;
+}
